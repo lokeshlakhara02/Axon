@@ -1,11 +1,12 @@
 {
   "name": "axon",
-  "homepage": "https://lokeshlakhara02.github.io/Axon",
+  "homepage": "https://lokeshlakhara02.github.io/axon/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "run dev",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
