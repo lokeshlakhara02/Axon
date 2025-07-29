@@ -7,6 +7,7 @@ import {
 import Header from './components/Header'
 import PowerBIReport from './components/PowerBIReport'
 import TodoList from './components/TodoList'
+import BlogPage from './components/BlogPage'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<div />} />
         <Route path="/report" element={<PowerBIReport />} />
         <Route path="/todo" element={<TodoList />} />
+        <Route path="/blog" element={<BlogPage />} />
       </Routes>
     </Router>
   )
