@@ -6,7 +6,8 @@ const Header = () => {
     <div>
       <h1>What is solar power ?</h1>
       <nav>
-        <Link to="/report">Power BI Report</Link>
+        <Link to="/report">Power BI Report</Link> |
+        <Link to="/todo">Todo List</Link>
       </nav>
     </div>
   )

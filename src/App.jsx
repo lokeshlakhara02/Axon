@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 import Header from './components/Header'
 import PowerBIReport from './components/PowerBIReport'
+import TodoList from './components/TodoList'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<div />} />
         <Route path="/report" element={<PowerBIReport />} />
+        <Route path="/todo" element={<TodoList />} />
       </Routes>
     </Router>
   )
