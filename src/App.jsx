@@ -1,12 +1,22 @@
 import './App.css'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import PerformanceSection from './components/PerformanceSection'
+import KeyCapabilities from './components/KeyCapabilities'
+import CaseStudy from './components/CaseStudy'
+import NextSteps from './components/NextSteps'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-500 to-purple-600 text-white">
-      <header className="p-8 text-center">
-        <h1 className="text-5xl font-light mb-4">Welcome to Axon</h1>
-        <p className="text-xl opacity-90">Your fresh React application with Tailwind CSS is ready!</p>
-      </header>
+    <div className="min-h-screen bg-white">
+      <Header />
+      <Hero />
+      <PerformanceSection />
+      <KeyCapabilities />
+      <CaseStudy />
+      <NextSteps />
+      <Footer />
     </div>
   )
 }
